@@ -9,18 +9,9 @@ Claudeus Memory is a knowledge graph server designed for AI models, with a focus
 
 *The project is based on the [Knowledge Graph Memory Server](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) from the MCP servers repository and retains its core functionality.*
 
-<a href="https://glama.ai/mcp/servers/kf6n6221pd"><img width="380" height="200" src="https://glama.ai/mcp/servers/kf6n6221pd/badge" alt="Claudeus Memory MCP server" /></a>
-
 ## IMPORTANT
 Since `v0.9.1` the default location of schemas was changed to `dist/data/schemas`.
 This location is not expected to change in the future, but if you are updating from a previous version, make sure to move your schema files to the new location.
-
-## Quick Links
-
-*   [Installation](#installation)
-*   [Example](#example)
-*   [SchemaManager Guide Discussion](https://github.com/CheMiguel23/Claudeus Memory/discussions/3)
-*   [MemoryViewer Guide Discussion](https://github.com/CheMiguel23/Claudeus Memory/discussions/15)
 
 ## Overview
 
@@ -188,7 +179,7 @@ The Memory Viewer is a separate tool designed to help you visualize and inspect 
 * Search and Filter: Allows you to filter by node type or edge type and filter whether to show nodes, edges, or both.
 
 ##### Accessing the Memory Viewer
-The Memory Viewer is a standalone web application. [Memory Viewer discussion](https://github.com/CheMiguel23/Claudeus Memory/discussions/15)
+The Memory Viewer is a standalone web application. [Memory Viewer discussion](https://github.com/deus-h/claudeus-memory/discussions/15)
 
 ##### Using the Memory Viewer
 * Select Memory File: In the Memory Viewer, click the "Select Memory File" button.
